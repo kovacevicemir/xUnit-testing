@@ -1,0 +1,6 @@
+D:\Codes\csharp\xUnitTesting\DemoLibrary\bin\Debug\DemoLibrary.dll
+D:\Codes\csharp\xUnitTesting\DemoLibrary\bin\Debug\DemoLibrary.pdb
+D:\Codes\csharp\xUnitTesting\DemoLibrary\obj\Debug\DemoLibrary.csprojAssemblyReference.cache
+D:\Codes\csharp\xUnitTesting\DemoLibrary\obj\Debug\DemoLibrary.csproj.CoreCompileInputs.cache
+D:\Codes\csharp\xUnitTesting\DemoLibrary\obj\Debug\DemoLibrary.dll
+D:\Codes\csharp\xUnitTesting\DemoLibrary\obj\Debug\DemoLibrary.pdb

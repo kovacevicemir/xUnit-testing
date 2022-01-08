@@ -1,0 +1,14 @@
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\PersonText.txt
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\WinFormUI.exe.config
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\WinFormUI.exe
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\WinFormUI.pdb
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\DemoLibrary.dll
+D:\Codes\csharp\xUnitTesting\WinFormUI\bin\Debug\DemoLibrary.pdb
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.csprojAssemblyReference.cache
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.Dashboard.resources
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.exe
+D:\Codes\csharp\xUnitTesting\WinFormUI\obj\Debug\WinFormUI.pdb
