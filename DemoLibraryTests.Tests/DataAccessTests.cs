@@ -32,7 +32,7 @@ namespace DemoLibraryTests.Tests
 
         [Theory]
         [InlineData("Emir", "", "LastName")]
-        [InlineData("", "Kovacevic", "LastName")]
+        [InlineData("", "Kovacevic", "FirstName")]
         public void AddPersonToPeopleList_ShouldFail(string firstName, string lastName, string param)
         {
             // Arrange
@@ -46,6 +46,35 @@ namespace DemoLibraryTests.Tests
 
             // Assert Exception catch
             Assert.Throws<ArgumentException>(param, () => DataAccess.AddPersonToPeopleList(people, newPerson));
+        }
+
+        [Fact]
+        public void ConvertModelsToCSV_ShouldWork()
+        {
+            // Arange
+            List<PersonModel> listOfPeople = new List<PersonModel>();
+
+            PersonModel person1 = new PersonModel
+            {
+                FirstName = "Emir",
+                LastName = "Kovacevic"
+            };
+
+            PersonModel person2 = new PersonModel
+            {
+                FirstName = "Tom",
+                LastName = "Etc"
+            };
+
+            DataAccess.AddPersonToPeopleList(listOfPeople, person1);
+            DataAccess.AddPersonToPeopleList(listOfPeople, person2);
+
+
+            List<string> stringListOFPeople = DataAccess.ConvertModelsToCSV(listOfPeople);
+
+            // Assert 
+            Assert.Contains<string>(person1.FirstName + "," + person1.LastName, stringListOFPeople);
+            Assert.Contains<string>(person2.FirstName + "," + person2.LastName, stringListOFPeople);
         }
     }
 }
