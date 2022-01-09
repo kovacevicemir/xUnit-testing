@@ -20,7 +20,7 @@ namespace DemoLibraryTests.Tests
         [Fact]
         public void ExampleLoadTextFile_InvalidNameShouldWork()
         {
-            Assert.Throws<ArgumentException>(() => Examples.ExampleLoadTextFile(""));
+            Assert.Throws<ArgumentException>("file",() => Examples.ExampleLoadTextFile(""));
         }
     }
 }
